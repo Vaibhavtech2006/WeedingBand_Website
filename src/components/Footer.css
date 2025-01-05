@@ -1,0 +1,75 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .footer-brand, .footer-links, .footer-photo-stream, .footer-facebook {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .footer-logo {
+    max-width: 150px;
+  }
+  
+  .footer-social img {
+    width: 24px;
+    margin: 0 5px;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin: 5px 0;
+  }
+  
+  .footer-links a, .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+  }
+  
+  .photo-grid img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #444;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+  }
+  .footer-social img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    margin: 0 5px;
+    transition: transform 0.2s;
+  }
+  
+  .footer-social img:hover {
+    transform: scale(1.2); /* Zoom effect on hover */
+  }
+  
