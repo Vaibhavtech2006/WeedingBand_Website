@@ -6,8 +6,8 @@ import FeaturedServices from './components/FeaturedServices';
 import MediaSection from './components/MediaSection';
 import FAQSection from './components/FAQSection';
 import RequestCallback from './components/RequestCallback';
-import BookNow from './components/BookNow';
-import Footer from './components/Footer';
+import BookNow from './components/booknow';
+import Footer from './components/footer';
 
 // Import individual service components
 import WeddingServices from './components/services/WeddingServices';
