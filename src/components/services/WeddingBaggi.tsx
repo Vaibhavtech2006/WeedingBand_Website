@@ -36,7 +36,7 @@ const WeddingBaggi = () => {
       <section className="text-center bg-yellow-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Make Your Wedding Grand with Our Baggi Services</h2>
         <p className="text-lg text-gray-600 mt-4">A wedding is not complete without a memorable entrance. With our Wedding Baggi services, you'll be the center of attention as you arrive in style and grace.</p>
-        <button className="mt-8 px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors">Book Your Baggi Now</button>
+
       </section>
     </div>
   );

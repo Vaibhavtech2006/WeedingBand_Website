@@ -41,7 +41,7 @@ const WeddingLightingServices = () => {
       <section className="text-center bg-yellow-50 py-12 rounded-lg">
         <h2 className="text-3xl font-semibold text-gray-800">Illuminate Your Dream Wedding</h2>
         <p className="text-lg text-gray-600 mt-4">Whether you want to create a warm and intimate setting or a bold, vibrant atmosphere, our lighting services will bring your wedding vision to life!</p>
-        <button className="mt-8 px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">Contact Us for More Info</button>
+       
       </section>
     </div>
   );

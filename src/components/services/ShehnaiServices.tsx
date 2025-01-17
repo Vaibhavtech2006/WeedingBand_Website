@@ -36,7 +36,7 @@ const ShehnaiServices = () => {
       <section className="text-center bg-purple-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Make Your Ceremony Memorable with Our Shehnai Services</h2>
         <p className="text-lg text-gray-600 mt-4">Let the soulful sound of the Shehnai add elegance and grace to your wedding. Our expert musicians will ensure that your special day is filled with timeless melodies.</p>
-        <button className="mt-8 px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors">Book Your Shehnai Now</button>
+      
       </section>
     </div>
   );

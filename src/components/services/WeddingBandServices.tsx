@@ -36,7 +36,7 @@ const WeddingBandServices = () => {
       <section className="text-center bg-indigo-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Let Music Create the Perfect Wedding Atmosphere</h2>
         <p className="text-lg text-gray-600 mt-4">Music is the heartbeat of your wedding celebration. Our wedding bands provide an unforgettable performance that will have your guests dancing and enjoying every moment.</p>
-        <button className="mt-8 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">Book Your Band Now</button>
+      
       </section>
     </div>
   );

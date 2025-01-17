@@ -36,7 +36,7 @@ const WeddingBoard = () => {
       <section className="text-center bg-yellow-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Make Your Wedding Truly Yours</h2>
         <p className="text-lg text-gray-600 mt-4">Our Wedding Board Services add that personal touch, making your wedding decor even more memorable. Whether it's personalized signage or directional guides, we help tell your unique story.</p>
-        <button className="mt-8 px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors">Book Now</button>
+        
       </section>
     </div>
   );

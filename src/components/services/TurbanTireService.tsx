@@ -36,7 +36,7 @@ const TurbanTireService = () => {
       <section className="text-center bg-yellow-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Make Your Wedding Day Extra Special</h2>
         <p className="text-lg text-gray-600 mt-4">Our Turban Tire Services are designed to elevate the cultural beauty of your wedding. Let us help you create a grand atmosphere with our exquisite and personalized decorations.</p>
-        <button className="mt-8 px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors">Book Your Turban Tire Service Now</button>
+       
       </section>
     </div>
   );

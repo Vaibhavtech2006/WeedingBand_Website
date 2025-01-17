@@ -36,7 +36,7 @@ const WeddingGhoriServices = () => {
       <section className="text-center bg-purple-50 py-12 rounded-lg mt-12">
         <h2 className="text-3xl font-semibold text-gray-800">Make Your Wedding Unforgettable</h2>
         <p className="text-lg text-gray-600 mt-4">Add a royal touch to your wedding with our Wedding Ghori Services. Let the groom's entrance be grand and spectacular as he arrives in traditional style, riding a beautifully adorned horse.</p>
-        <button className="mt-8 px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors">Book Now</button>
+
       </section>
     </div>
   );
