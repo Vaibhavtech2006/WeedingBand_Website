@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import axios from 'axios';
+import emailjs from 'emailjs-com';
 
 interface FormData {
   name: string;
@@ -25,17 +25,31 @@ const BookNow: React.FC = () => {
   };
 
   // Handle form submission
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    try {
-      // Send data to backend API
-      const response = await axios.post('http://localhost:5000/api/bookings', formData);
-      setMessage(response.data.message); // Show success message
-    } catch (error) {
-      console.error(error);
-      setMessage('Error sending booking request');
-    }
+    // Prepare email data
+    const emailData = {
+      from_name: formData.name,
+      from_email: formData.email,
+      service_type: formData.service,
+    };
+
+    // Use EmailJS to send the email
+    emailjs.send(
+      'service_3vwukiq', // Your EmailJS service ID
+      'template_wbq3l82', // Your EmailJS template ID
+      emailData,
+      'Yt2yTsIBBSUu2TlDFYf--' // Your EmailJS user ID
+    )
+      .then((response) => {
+        console.log('Email sent successfully', response);
+        setMessage('Your booking request has been sent! You will receive a confirmation soon.');
+      })
+      .catch((error) => {
+        console.error('Failed to send email', error);
+        setMessage('Error sending booking request');
+      });
   };
 
   return (

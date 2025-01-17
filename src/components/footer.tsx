@@ -22,20 +22,7 @@ const Footer: React.FC = () => {
           <p>
             <a href="tel:9811162044">9811162044</a>
           </p>
-          <div className="footer-social">
-  <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/social-icons/facebook-logo.png" alt="Facebook Logo" title="Follow us on Facebook" />
-  </a>
-  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/social-icons/instagram-logo.png" alt="Instagram Logo" title="Follow us on Instagram" />
-  </a>
-  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/social-icons/twitter-logo.png" alt="Twitter Logo" title="Follow us on Twitter" />
-  </a>
-  <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/social-icons/youtube-logo.png" alt="YouTube Logo" title="Subscribe to our YouTube Channel" />
-  </a>
-</div>
+ 
 
 
         </div>
@@ -68,8 +55,8 @@ const Footer: React.FC = () => {
         <div className="footer-facebook">
           <h4>Facebook</h4>
           <div className="facebook-feed">
-            <iframe 
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fmasterbanddelhi&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+            {/* <iframe 
+              src="https://www.facebook.com/profile.php?id=61554728860875&mibextid=ZbWKwL"
               width="340" 
               height="500" 
               style={{border:'none', overflow:'hidden'}} 
@@ -77,12 +64,12 @@ const Footer: React.FC = () => {
               frameBorder="0" 
               allowFullScreen={true} 
               allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-            </iframe>
+            </iframe> */}
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2018 - Master Band | Powered by : ISOLS GROUP / INNOVATIVE SOLUTION TECHNOLOGIES</p>
+        <p>&copy; 2025 - Naushad Rawat Band| Powered by : Designed and developed by ALINS GROUP</p>
       </div>
     </footer>
   );
